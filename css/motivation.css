@@ -1,0 +1,9 @@
+
+#titleone , #titletwo , #titlethree , #titlefour h4{
+	color: black;
+	
+}
+#titletwo,#titleone,#titlefour,#titlethree{
+ 	color: white !important;
+	display: none;
+}

@@ -1,0 +1,89 @@
+.nav-left {
+    transition:all .3s ease-in-out;
+    opacity: 0; 
+    left: -300px;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 270px;
+    background-color: #00815C;
+    box-shadow: 2px 0 2px rgba(0, 0, 0, .3);
+     z-index: 999999999;
+}
+
+.nav-left ul {
+    margin-top: 30px;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-left ul li {
+    padding: 10px 0 10px 40px;
+    transition: all .3s;
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: white;
+    margin-bottom: 20px;
+
+}
+.nav-left ul li:hover a {
+    color: white;
+}
+
+.nav-left ul li:hover {
+    padding: 20px 0 20px 40px;
+    background-color: #07E5A5;
+    transition: all .3s;
+    cursor: pointer;
+   
+}
+.nav-left ul li:active {
+   
+    background-color: #2196f3;
+
+}
+
+
+.nav-left .head {
+    height: 150px;
+    width: 100%;
+    background-color: #00815C;
+}
+
+#close {
+    color: white;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+    transition: transform .3s;
+}
+#close:hover {
+    cursor: pointer;
+    color: #07E5A5  ;
+    transform: scale(1.25);
+    transition: transform .3s;
+}
+.nav-left .head img {
+    margin: 35px 10px 35px 20px;
+    border-radius: 50%;
+
+}
+.nav-left .head span {
+    color:white;
+}
+
+.nav-left .head h1 {
+    color: #222;
+    margin-top:  20px;
+}
+.ProgramHeader{
+    padding-top: 40px;
+}
+h6{
+    margin-top: 200px;
+    font-size: 30px;
+    color: white;
+}
